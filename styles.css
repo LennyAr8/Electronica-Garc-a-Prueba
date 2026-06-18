@@ -741,6 +741,11 @@ button { border: none; cursor: pointer; font-family: inherit; }
    RESPONSIVE
 ============================ */
 @media (max-width: 900px) {
+
+   .nosotros-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
   
   .servicios-grid,
   .contacto-cards {
@@ -756,7 +761,10 @@ button { border: none; cursor: pointer; font-family: inherit; }
 
 @media (max-width: 640px) {
 
-
+   .nosotros-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 
   .nav-links {
     position: fixed;
